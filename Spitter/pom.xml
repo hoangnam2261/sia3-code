@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+        xmlns="http://maven.apache.org/POM/4.0.0"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <parent>
+        <groupId>com.springinaction</groupId>
+        <artifactId>example-code</artifactId>
+        <version>3.0.0</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.habuma.spitter</groupId>
+    <artifactId>spitter</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>spitter</name>
+    <url>http://www.manning.com/walls4</url>
+
+    <properties>
+        <spring.version>3.0.5.RELEASE</spring.version>
+        <jodatime.version>1.6.2</jodatime.version>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.13</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+            <version>1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>${spring.group}</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.7</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.8.5</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <modules>
+        <module>spitter-domain-plain</module>
+        <module>spitter-domain-jpa</module>
+        <module>spitter-persistence-common</module>
+        <module>spitter-persistence-jdbc-conventional</module>
+        <module>spitter-persistence-jdbc-template</module>
+        <module>spitter-persistence-jdbc-dao-support</module>
+        <module>spitter-persistence-hibernate-template</module>
+        <module>spitter-persistence-hibernate-contextual-sessions</module>
+        <module>spitter-persistence-jpa</module>
+    </modules>
+</project>

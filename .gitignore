@@ -1,0 +1,11 @@
+*.classpath
+*.project
+*.springBeans
+*.so
+*.iml
+target/
+.idea/
+.DS_Store
+.settings/
+.gradle/
+*.gradle
