@@ -3,7 +3,7 @@ jdk:
 - oraclejdk8
 
 before_install:
-- mvn clean compile -Dmaven.javadoc.skip=true -B -V -e
+- mvn compile -Dmaven.javadoc.skip=true -B -V -e
 
 install:
   -
