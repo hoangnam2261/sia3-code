@@ -3,7 +3,7 @@ jdk:
 - oraclejdk8
 
 install:
-- mvn clean compile -Dmaven.javadoc.skip=true -B -V -e
+- mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V -e
 
 # use latest java version available instead of travis default
 addons:
