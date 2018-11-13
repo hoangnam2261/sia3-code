@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>com.habuma.spitter</groupId>
-            <artifactId>spitter-domain-plain</artifactId>
+            <artifactId>spitter-domain-jpa</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
