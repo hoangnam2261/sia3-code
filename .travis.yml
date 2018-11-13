@@ -2,8 +2,8 @@ language: java
 jdk:
 - oraclejdk8
 
-before_install:
-- mvn clean compile
+install:
+- mvn clean compile -Dmaven.javadoc.skip=true -B -V -e
 
 # use latest java version available instead of travis default
 addons:
