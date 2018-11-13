@@ -7,6 +7,9 @@ before_install:
 
 install: true
 
+script:
+  - echo "what the fuck with you travis"
+
 after_success: true
 
 # use latest java version available instead of travis default
