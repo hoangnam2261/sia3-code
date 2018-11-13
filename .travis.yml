@@ -5,9 +5,11 @@ jdk:
 before_install:
 - mvn clean compile -Dmaven.javadoc.skip=true -B -V -e
 
-install: true
+install:
+  -
 
-after_success: true
+after_success:
+  -
 
 # use latest java version available instead of travis default
 addons:
@@ -15,4 +17,4 @@ addons:
     packages:
     - oracle-java8-installer
 
-sudo: required
+sudo: false
