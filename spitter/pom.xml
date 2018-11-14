@@ -69,5 +69,9 @@
         <module>spitter-persistence-hibernate-template</module>
         <module>spitter-persistence-hibernate-contextual-sessions</module>
         <module>spitter-persistence-jpa</module>
+        <module>spitter-service-common</module>
+        <module>spitter-service-programmatic-tx</module>
+        <module>spitter-service-declarative-tx</module>
+        <module>spitter-service-annotation-tx</module>
     </modules>
 </project>
