@@ -36,7 +36,7 @@
     <property name="song" value="Jingle Bells" />
     <property name="instrument" ref="saxophone" />
   </bean>
-  <!--<end id="kenny2_bean" />-->https://bitbucket.org/knorexteam/xadservertracker-adedge-serving-api/pull-requests/82/dbda-1393-adapt-dco-for-changes-of-user/diff
+  <!--<end id="kenny2_bean" />-->
 
   <!--<start id="carl_bean"/>--> 
   <bean id="carl"
