@@ -13,7 +13,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @ContextConfiguration("spring-idol.xml")
 public class AnnotationConfigTest {
   @Autowired
-  @Qualifier("eddie")
   private Instrumentalist eddie;
 
   @Autowired

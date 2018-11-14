@@ -2,10 +2,15 @@
 package com.springinaction.springidol;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Instrumentalist implements Performer {
-  //<start id="autowire_constructor" />
-  @Autowired
+
+    public Instrumentalist() {
+    }
+
+    //<start id="autowire_constructor" />
+//  @Autowired
   public Instrumentalist(Instrument instrument) {
     this.instrument = instrument;
   }
@@ -29,12 +34,13 @@ public class Instrumentalist implements Performer {
 
   //<start id="autowire_property" />
   @Autowired
+  @Qualifier("guitar")
   private Instrument instrument;
 
   //<end id="autowire_property" />
 
   //<start id="autowire_nonsetter" />
-  @Autowired
+//  @Autowired
   public void heresYourInstrument(Instrument instrument) {
     this.instrument = instrument;
   }
@@ -42,7 +48,7 @@ public class Instrumentalist implements Performer {
   //<end id="autowire_nonsetter" />
 
   //<start id="autowire_setter" />
-  @Autowired
+//  @Autowired
   public void setInstrument(Instrument instrument) {
     this.instrument = instrument;
   }

@@ -5,7 +5,7 @@
         http://maven.apache.org/maven-v4_0_0.xsd">
 
  <modelVersion>4.0.0</modelVersion>
- <name>Spitter</name>
+ <name>Spring in Action: Rest Client</name>
  <groupId>com.habuma.spitter</groupId>
  <artifactId>rest-client</artifactId>
  <version>1.0.0-SNAPSHOT</version>
