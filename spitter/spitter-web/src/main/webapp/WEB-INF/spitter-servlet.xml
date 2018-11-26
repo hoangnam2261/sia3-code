@@ -79,5 +79,5 @@
    <util:properties id="s3Properties" 
                     location="classpath:s3.properties"/>
    
-   <import resource="classpath:jmx-context.xml"/>   
+   <!--<import resource="classpath:jmx-context.xml"/>   -->
 </beans>

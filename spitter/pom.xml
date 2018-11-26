@@ -73,5 +73,7 @@
         <module>spitter-service-programmatic-tx</module>
         <module>spitter-service-declarative-tx</module>
         <module>spitter-service-annotation-tx</module>
+        <module>spitter-jmx</module>
+        <module>spitter-web</module>
     </modules>
 </project>
